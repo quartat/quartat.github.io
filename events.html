@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Quartat</title>
+    <meta name="description" content="Quartat V2.0">
+    <meta name="author" content="The Good folks over at DesignCougar.com">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900|Raleway:600,700,400,200' rel='stylesheet' type='text/css'>
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-nav.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="nav">
+        <div class="container">
+            <div id="navLinks">
+                <nav class="nav-collapse">
+                    <ul id="navlist">
+                        <li><a href="about.html">About us</a>
+                        </li>
+                        <li><a href="services.html">Services</a>
+                        </li>
+                        <li><a href="#">Contact Us</a>
+                        </li>
+                        <li><a href="events.html">Events</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="navToggle">
+            <i class="fa fa-bars fa-lg"></i>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="six columns">
+            <div id="events">
+                <div class="eventBlock">
+                    <div id="event1" class="eventHeader row">
+                        <h2 align="center">Dinner Party</h2>
+                    </div>
+                    <div class="eventBody row">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et odio commodo, aliquet arcu id, convallis urna. Nullam congue nunc vitae auctor ullamcorper. Aliquam in porttitor nibh, at rutrum mi. Pellentesque tristique augue eu orci tempor, ac gravida lectus porttitor. <br/>Aliquam in porttitor nibh, at rutrum mi. Pellentesque tristique augue eu orci tempor, ac gravida lectus porttitor. Aliquam in porttitor nibh, at rutrum mi. Pellentesque tristique augue eu orci tempor, ac gravida lectus porttitor.
+                        </p>
+                    </div>
+                    <div class="eventFooter row">
+                        <div class="container">
+                            <div class="six columns">
+                                <div class="eventDate">
+                                    Nov 20th
+                                </div>
+                            </div>
+                            <div class="six columns">
+                                <div class="eventInfo">
+                                    $500/seat
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="six columns">
+            <div id="events">
+                <div class="eventBlock">
+                    <div id="event2" class="eventHeader row">
+                        <h2 align="center">Networking 101</h2>
+                    </div>
+                    <div class="eventBody row">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et odio commodo, aliquet arcu id, convallis urna. Nullam congue nunc vitae auctor ullamcorper. Aliquam in porttitor nibh, at rutrum mi. Pellentesque tristique augue eu orci tempor, ac gravida lectus porttitor. Aliquam in porttitor nibh.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et odio commodo, aliquet arcu id, convallis urna. Nullam congue nunc vitae auctor ullamcorper. Aliquam in porttitor nibh, at rutrum mi. Pellentesque tristique augue eu orci tempor, ac gravida lectus porttitor. Aliquam in porttitor nibh.
+                        </p>
+                    </div>
+                    <div class="eventFooter row">
+                        <div class="container">
+                            <div class="six columns">
+                                <div class="eventDate">
+                                    Nov 17th
+                                </div>
+                            </div>
+                            <div class="six columns">
+                                <div class="eventInfo">
+                                    SOLD OUT
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Events-->
+    </div>
+    </div>
+
+    <!--Main-->
+    <!-- JS Load for dat quicknickness yall
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/headroom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.headroom.js"></script>
+    <script type="text/javascript" src="js/responsive-nav.js"></script>
+    <script type="text/javascript" src="js/cougarParallax.js"></script>
+    <script>
+    var nav = responsiveNav(".nav-collapse", {
+        customToggle: "navToggle",
+        animate: true,
+    });
+    </script>
+    <script type="text/javascript">
+    $(".nav").headroom();
+    </script>
+    <!--<script src="bower_components/imagesloaded/imagesloaded.js"></script>-->
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/video.js/dist/video-js/video.js"></script>
+    <script src="bower_components/bigvideo.js/lib/bigvideo.js"></script>
+    <script>
+    $("#button1").click(function(e) {
+        e.preventDefault();
+        $("#lookService").toggleClass("active");
+        $("#lookP").toggleClass("active");
+    });
+
+    $("#button2").click(function(e) {
+        e.preventDefault();
+        $("#talkService").toggleClass("active");
+        $("#talkP").toggleClass("active");
+    });
+
+    $("#button3").click(function(e) {
+        e.preventDefault();
+        $("#presenceService").toggleClass("active");
+        $("#presenceP").toggleClass("active");
+    });
+    </script>
+</body>
+
+</html>

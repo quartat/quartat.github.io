@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Your page title here :)</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="nav">
+    <div class="container">
+    <div id="navLinks">
+    <div class="one column navLink"><a href="index.html">Home</a></div>
+        <div class="one column navLink">Test</div>
+        <div class="one column navLink">Test</div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="contentBlock main" id="bg">
+        <div class="container" id="start">
+            <div class="row">
+                <div class="twelve columns" style="margin-top: 20%">
+                 <h1>Questionnaire</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="five columns" >
+                    <p>Before we get to help you, we need to get to know you.</p>
+                    <a class="button" id="startButton">Let's start</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="question1">
+            <div class="row">
+                <div class="twelve columns" style="margin-top: 20%">
+                 <h1>Question #1</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="five columns">
+                    <a class="button" id="level1AButton">A</a>
+                    <a class="button" id="level1BButton">B</a>
+                    <a class="button" id="level1CButton">C</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="question2">
+            <div class="row">
+                <div class="twelve columns" style="margin-top: 20%">
+                 <h1>Question #2</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="five columns">
+                    <a class="button" id="level2AButton">A</a>
+                    <a class="button" id="level2BButton">B</a>
+                    <a class="button" id="level2CButton">C</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="question3">
+            <div class="row">
+                <div class="twelve columns" style="margin-top: 20%">
+                 <h1>Question #3</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="five columns">
+                    <a class="button" id="level3AButton">A</a>
+                    <a class="button" id="level3BButton">B</a>
+                    <a class="button" id="level3CButton">C</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JS Load for dat quicknickness yall
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script src="js/jquery-1.11.2.min.js"></script>
+     <script  type="text/javascript"  src="js/headroom.min.js"></script>      
+        <script  type="text/javascript"  src="js/jquery.headroom.js"></script>
+      <script type="text/javascript">
+        $(".nav").headroom();
+    </script>
+    <script type="text/javascript" src="js/questionnaire.js"></script>
+    <!--<script>
+        $("#startButton").click(function(event) {
+            event.preventDefault();
+            $("#start").hide();
+            $("#question1").fadeIn("slow");   
+        });
+    </script> -->
+    
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/video.js/dist/video-js/video.js"></script>
+    <script src="bower_components/bigvideo.js/lib/bigvideo.js"></script>
+    
+</body>
+
+</html>
