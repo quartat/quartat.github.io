@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <title>Quartat</title>
     <meta name="description" content="Quartat V2.0">
-    <meta name="author" content="The Good folks over at DesignCougar.com">
+    <meta name="author" content="Miguel Ocampo-Gooding">
 
     <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -21,11 +21,10 @@
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive-nav.css">
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive-nav.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,77 +36,37 @@
 
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="nav">
-        <div class="container">
-            <div id="quartat">
-                <a href="index.html"><img src="images/quartatLogo.png" class="img-responsive"></a>
-            </div>
-            <div id="navLinks">                        
-                <nav class="nav-collapse">
-                    <ul id="navlist">
-                        <li><a href="about.html">About us</a>
-                        </li>
-                        <li><a href="services.html">Services</a>
-                        </li>
-                        <!--<li><a href="events.html">Events</a>
-                        </li>-->
-                        <li><a href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-        </div>
-        <div id="navToggle">
-            <i class="fa fa-bars fa-lg"></i>
-        </div>
-    </div> 
-
-
-
-    <!--<div id="main" class="contentBlock">
-        <div id="mainText" class="container">
-            <div class="row">
-                <div class="twelve columns">
-                    <h1 align="center" >Who we are</h1>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!--
-    <div class="aboutBlock">
-        <div class="container">
-            <div class ="row">
-                <div class="twelve columns">
-                    <h1 align="center">The Team</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="one-half column">
-                    <img src="images/sabrinaProfile.jpg" class="aboutImage">
-                    <h2 align="center">Sabrina Hao</h2>
-                    <p align = "center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet tellus magna, quis feugiat ligula efficitur quis. Nulla ultrices nisi et convallis vestibulum. Nullam scelerisque gravida risus vel sodales. Aenean interdum convallis lectus, vitae euismod sapien viverra at. Pellentesque dictum nunc et consectetur sollicitudin. Vivamus ornare porttitor nunc, at fermentum mauris. Suspendisse non tellus placerat, lacinia justo et, rutrum odio. Aliquam placerat quam a turpis ultrices feugiat. Nam gravida sagittis ullamcorper. Nulla congue nibh vel nisi commodo, non viverra est faucibus. Duis malesuada bibendum leo, ac consequat ante suscipit in. Fusce sit amet erat nibh.
-                    </p>
-                </div>
-                
-                
-                <div class="one-half column">
-                    <img src ="images/mingProfile.jpg" class="aboutImage">
-                    <h2 align="center">Nathan Mao</h2>
-                    <p align = "center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet tellus magna, quis feugiat ligula efficitur quis. Nulla ultrices nisi et convallis vestibulum. Nullam scelerisque gravida risus vel sodales. Aenean interdum convallis lectus, vitae euismod sapien viverra at. Pellentesque dictum nunc et consectetur sollicitudin. Vivamus ornare porttitor nunc, at fermentum mauris. Suspendisse non tellus placerat, lacinia justo et, rutrum odio. Aliquam placerat quam a turpis ultrices feugiat. Nam gravida sagittis ullamcorper. Nulla congue nibh vel nisi commodo, non viverra est faucibus. Duis malesuada bibendum leo, ac consequat ante suscipit in. Fusce sit amet erat nibh.            </p>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    <nav class="navbar navbar-fixed-top navQuartat">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="fa fa-bars"></i>
+				</button>
+				<a href="index.html">
+					<img class="img-responsive quartatLogo" src="images/quartatLogo.png">
+				</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="about.html">About us</a>
+					</li>
+					<li><a href="services.html">Services</a>
+					</li>
+					<li><li><a href="#">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
 
     <div class="storyBlock" id="storyBG1">
         <div class="container">
             <div class="row">
-                <div class="twelve columns title">
-                    <div id="heavyTitle">Our Story</div>
-                    <div id="lightTitle">Take a seat and let us tell you a story</div>
+                <div class="col-xs-12 col-lg-12">
+                    <h1>Our Story</h1>
+                    <h2>Take a seat and let us tell you a story</h2>
                     <hr>
                 </div>
             </div>
@@ -117,18 +76,17 @@
     <div class="minorBlock">
         <div class="container">
             <div class="row">
-                <div class="twelve columns">
+                <div class="col-lg-12">
                     <h1 align="center">Our Humble beginnings</h1>
                     <hr>
                 </div>
             </div>
             <div class="row">
-                <div class="six columns">
-                    <p>
-                        Delightful flat white liveable, Asia-Pacific premium Ginza wardrobe Comme des Garçons efficient Nordic uniforms discerning smart Baggu elegant. Hub essential K-pop pintxos iconic Nordic Winkreative. Porter classic first-class, global Asia-Pacific artisanal conversation Ettinger lovely St Moritz. Joy Washlet liveable wardrobe boulevard Singapore signature Boeing 787 Tsutaya Nordic alluring. Gaggenau destination Lufthansa.
-                    </p>
+                <div class="col-lg-4 col-lg-offset-2">
+                    <h4>Delightful flat white liveable, Asia-Pacific premium Ginza wardrobe Comme des Garçons efficient Nordic uniforms discerning smart Baggu elegant. Hub essential K-pop pintxos iconic Nordic Winkreative. Porter classic first-class, global Asia-Pacific artisanal conversation Ettinger lovely St Moritz. Joy Washlet liveable wardrobe boulevard Singapore signature Boeing 787 Tsutaya Nordic alluring. Gaggenau destination Lufthansa.
+                    </h4>
                 </div>
-                <div class="six columns">
+                <div class="col-lg-6">
                     <img src="images/3.png">
                 </div>
             </div>
@@ -138,8 +96,8 @@
     <div class="storyBlock" id="storyBG2">
         <div class="container">
             <div class="row">
-                <div class="twelve columns title">
-                    <div id ="heavyTitle">But Why?</div>
+                <div class="col-lg-12">
+                    <h1>But Why?</h1>
                     <hr>
                 </div>
             </div>
@@ -149,37 +107,43 @@
     <div class="minorBlock">
         <div class="container">
             <div class="row">
-                <div class="twelve columns">
-                    <div id="heavyContent">An enim labore nam possumus, offendit ex eram possumus et sint excepteur</div>
+                <div class="col-lg-12 text-center">
+                    <h1>An enim labore nam possumus, offendit ex eram possumus et sint excepteur</h1>
+										<hr>
                 </div>
             </div>
             <div class="row">
-                <div class="six columns">
-                    <p id="textContent">
-                        Eclectic Toto efficient, handsome Lufthansa Ginza Singapore bulletin Melbourne bespoke bureaux. Classic handsome business class, essential Gaggenau smart Scandinavian delightful Helsinki bespoke Ginza. K-pop exquisite premium discerning Ettinger St Moritz. Iconic Shinkansen Fast Lane, boulevard tote bag Beams Tsutaya signature extraordinary.
-                    </p>
+                <div class="col-lg-6">
+                    <p>Eclectic Toto efficient, handsome Lufthansa Ginza Singapore bulletin Melbourne bespoke bureaux. Classic handsome business class, essential Gaggenau smart Scandinavian delightful Helsinki bespoke Ginza. K-pop exquisite premium discerning Ettinger St Moritz. Iconic Shinkansen Fast Lane, boulevard tote bag Beams Tsutaya signature extraordinary.</p>
                 </div>
-                <div class="six columns">
-                    <p id="textContent">
-                        Eclectic Toto efficient, handsome Lufthansa Ginza Singapore bulletin Melbourne bespoke bureaux. Classic handsome business class, essential Gaggenau smart Scandinavian delightful Helsinki bespoke Ginza. K-pop exquisite premium discerning Ettinger St Moritz. Iconic Shinkansen Fast Lane, boulevard tote bag Beams Tsutaya signature extraordinary.
-                    </p>
+                <div class="col-lg-6">
+                    <p>Eclectic Toto efficient, handsome Lufthansa Ginza Singapore bulletin Melbourne bespoke bureaux. Classic handsome business class, essential Gaggenau smart Scandinavian delightful Helsinki bespoke Ginza. K-pop exquisite premium discerning Ettinger St Moritz. Iconic Shinkansen Fast Lane, boulevard tote bag Beams Tsutaya signature extraordinary.</p>
                 </div>
             </div>
         </div>
     </div>
     
-    <div class="footer">
-        <div class="container">
-        <div class="six columns">
-            <p id="footerText">Quartat Lifestyle<br>4789 Yonge Street 201a, Toronto ON<br>(647)123-4567<br>info@quartat.com</p>
-        </div>
-        <div class="six columns">
-            <div id="logo"><a href="www.facebook.com"><i class="fa fa-facebook fa-2x"></i></a></div>
-            <div id="logo"><a href="www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a></div>
-            <div id="logo"><a href="www.twitter.com"><i class="fa fa-twitter fa-2x"></i></a></div>
-        </div>
-        </div>
-    </div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-lg-9">
+					<p>Quartat Lifestyle</p>
+					<p>4789 Yonge Street 201a, Toronto ON</p>
+					<p>(647)123-4567</p>
+					<p>info@quartat.com</p>
+				</div>
+				<div class="col-xs-4 col-lg-1 text-center">
+					<a href="www.facebook.com"><i class="fa fa-facebook fa-inverse fa-2x"></i></a>
+				</div>
+				<div class="col-xs-4 col-lg-1 text-center">
+					<a href="www.instagram.com"><i class="fa fa-instagram fa-inverse fa-2x"></i></a>
+				</div>
+				<div class="col-xs-4 col-lg-1 text-center">
+					<a href="www.twitter.com"><i class="fa fa-twitter fa-inverse fa-2x"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
      
 
     <!-- JS Load for dat quicknickness yall
