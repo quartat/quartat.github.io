@@ -16,7 +16,8 @@ a:hover {
 }
 
 #main {
-	height: 800px;
+	height: 100%;
+	padding-bottom: 7%;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
@@ -57,7 +58,7 @@ a:hover {
 	width: 30%;
 	font-size: 20px;
 	border-radius: 30px;
-	margin-bottom: 5px;
+	margin: 2%;
 }
 
 .navQuartat {
@@ -73,12 +74,13 @@ a:hover {
 
 .quartatLogo {
 	width: 40px;
-	padding-top: 10%;
+	padding-top: 3px;
 }
 
 @media(max-width: 420px) {
 	#main {
-		height: 480px;
+		height: 100%;
+	padding-bottom: 7%;
 	}
 	#main h1 {
 		font-size: 60px;
@@ -101,7 +103,7 @@ a:hover {
 .powerBlock {
 	height: auto;
 	background-color: #1d1d1d;
-	padding: 10% 10%;
+	padding: 10% 5%;
 	color: #f4f4f4;
 }
 
@@ -117,7 +119,7 @@ a:hover {
 #styleBlock {
 	background-color: white;
 	color: #999;
-	padding: 7%;
+	padding: 7% 0;
 }
 
 #styleBlock h1 {
@@ -243,7 +245,8 @@ a:hover {
 
 .storyBlock {
 	color: white;
-	height: 600px;
+	height: 100%;
+	padding-bottom: 5%;
 	width: 100%;
 	z-index: -1;
 	background-size: cover;
