@@ -171,7 +171,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	
+
 
 	<!--<script src="bower_components/imagesloaded/imagesloaded.js"></script>-->
 	<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
@@ -181,7 +181,8 @@
 	<script>
 		var BV = new $.BigVideo({
 			container: $('#main'),
-			controls: false
+			controls: false,
+			forceAutoplay: true
 		});
 		BV.init();
 		BV.show(' quartatVideo.mp4', {
