@@ -24,6 +24,7 @@ a:hover {
 	min-height: 100%;
 	background-size: cover;
 	background-attachment: fixed;
+	background-image: url(../quartatVideo.gif);
 }
 
 #main h1 {
