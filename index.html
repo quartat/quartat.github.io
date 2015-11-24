@@ -42,8 +42,8 @@
 		</div>
 	</nav>
 
-	<div id="main" class="contentBlock">
-		<div class="container">
+	<div id="main">
+		<div id="splash" class="container">
 			<div class="row">
 				<div class="col-xs-12 col-lg-12 text-center">
 					<h1>Quartat</h1>
@@ -180,18 +180,18 @@
 	<script src="bower_components/bigvideo.js/lib/bigvideo.js"></script>
 
 	<script>
+		$(function() {
 		var BV = new $.BigVideo({
 			container: $('#main'),
 			controls: false
 		});
 		BV.init();
-		if (Modernizr.touch) {
-			BV.show('quartatVideo.gif');
+		if (Modernizr.touchevents) {
+			BV.show('images/quartatMobile.png');
 		} else{
-			BV.show(' quartatVideo.mp4', {
-				ambient: true
-			});
-		};
+			BV.show('quartatVideo.mp4', {ambient: true});
+		}
+		});
 	</script>
 
 
