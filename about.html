@@ -20,10 +20,8 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive-nav.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Favicon
@@ -34,32 +32,31 @@
 
 <body>
 
-    <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <nav class="navbar navbar-fixed-top navQuartat">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<i class="fa fa-bars"></i>
-				</button>
-				<a href="index.html">
-					<img class="img-responsive quartatLogo" src="images/quartatLogo.png">
-				</a>
-			</div>
-			<div id="navbar" class="collapse navbar-collapse navbar-right">
-				<ul class="nav navbar-nav">
-					<li><a href="about.html">About us</a>
-					</li>
-					<li><a href="services.html">Services</a>
-					</li>
-					<li><li><a href="#">Contact Us</a>
-					</li>
-				</ul>
-			</div>
-			<!--/.nav-collapse -->
-		</div>
-	</nav>
+  <nav class="navbar navbar-fixed-top navQuartat">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars"></i>
+        </button>
+        <a href="index.html">
+          <img class="img-responsive quartatLogo" src="images/quartatLogo.png">
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li><a href="about.html">About us</a>
+          </li>
+          <li><a href="services.html">Services</a>
+          </li>
+          <li>
+            <li><a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
 
     <div class="storyBlock" id="storyBG1">
         <div class="container">
@@ -82,12 +79,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h4>Quartat came about as a way to deliver the modern approach of teaching etiquette in our modern society. We believe that the times have changed and so our approach to etiquette must change also. Through extensive research, we have found the best approaches and experts to help our clients improve their way of handling themselves at events and to ensure that their etiquette is fit for this modern time.  
+                <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                    <h4>Quartat came about as a way to deliver the modern approach of teaching etiquette in our modern society. We believe that the times have changed and so our approach to etiquette must change also. Through extensive research, we have found the best approaches and experts to help our clients improve their way of handling themselves at events and to ensure that their etiquette is fit for this modern time.
                     </h4>
                 </div>
-                <div class="col-lg-12 text-center">
-                    <img src="images/3.png">
+                <div class="col-xs-12 col-lg-12 text-center">
+                    <img class="img-responsive" src="images/people.jpeg">
                 </div>
             </div>
         </div>
@@ -123,13 +120,13 @@
     <div class="footer">
   		<div class="container">
   			<div class="row">
-  				<div class="col-xs-6 col-lg-9">
-  					<p>Quartat Lifestyle</p>
+  				<div class="col-xs-12 col-lg-9">
+  					<p>Quartat Lifestyle consulting Inc.</p>
   					<p>4789 Yonge Street 201a, Toronto ON</p>
   					<p>(416) 827 - 8269</p>
   					<p>info@quartat.com</p>
   				</div>
-  				<div class="col-xs-4 col-lg-1 text-center">
+  				<!--<div class="col-xs-4 col-lg-1 text-center">
   					<a href="www.facebook.com"><i class="fa fa-facebook fa-inverse fa-2x"></i></a>
   				</div>
   				<div class="col-xs-4 col-lg-1 text-center">
@@ -137,28 +134,16 @@
   				</div>
   				<div class="col-xs-4 col-lg-1 text-center">
   					<a href="www.twitter.com"><i class="fa fa-twitter fa-inverse fa-2x"></i></a>
-  				</div>
+  				</div> -->
   			</div>
   		</div>
   	</div>
 
-
-    <!-- JS Load for dat quicknickness yall
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/headroom.min.js"></script>
     <script type="text/javascript" src="js/jquery.headroom.js"></script>
-    <script type="text/javascript" src="js/responsive-nav.js"></script>
-    <!-- <script type="text/javascript" src="js/cougarParallax.js"></script> -->
-    <script>
-        var nav = responsiveNav(".nav-collapse", {
-            customToggle: "navToggle",
-            animate: true,
-        });
-    </script>
-    <script type="text/javascript">
-        $(".nav").headroom();
-    </script>
+    <script src="js/bootstrap.min.js"></script>
+
 
 </body>
 

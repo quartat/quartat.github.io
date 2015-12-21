@@ -61,6 +61,12 @@ a:hover {
 	margin: 2%;
 }
 
+.services .btnQuartat{
+	border: 1px solid black;
+	font-size: 14px;
+	margin: auto;
+}
+
 .navQuartat {
 	background-color: white;
 	height: 30px;
@@ -233,7 +239,7 @@ a:hover {
 .minorBlock h1{
 	font-size: 60px;
 	font-weight: 200;
-}	
+}
 
 .minorBlock hr{
 	border-top:1px solid #E1E1E1;
@@ -295,5 +301,17 @@ a:hover {
 #splash {
 	position: absolute;
 	bottom: 15%;
+	left: 30px;
+}
+.storyBlock h1 {
+	font-size: 40px;
+}
+.storyBlock h2 {
+	font-size: 30px;
+	padding: 5%;
+}
+.minorBlock h1{
+	font-size: 30px;
+	font-weight: 200;
 }
 }
