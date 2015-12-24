@@ -83,8 +83,7 @@ a:hover {
 
 @media(max-width: 420px) {
 	#main {
-		height: 100%;
-	padding-bottom: 0%;
+		padding-bottom: 75%;
 	}
 	#main h1 {
 		font-size: 60px;
