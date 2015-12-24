@@ -4,7 +4,7 @@ html>body .contentBlock {
 
 .splash {
 	position: relative;
-	min-width: 300px;
+	padding: 50%;
 }
 
 a {
@@ -16,14 +16,12 @@ a:hover {
 }
 
 #main {
-	height: 100%;
-	padding-bottom: 7%;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-	min-height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding: 15% 0;
 }
 
 #main h1 {
@@ -36,7 +34,6 @@ a:hover {
 	margin-bottom: -10px;
 	text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
 	text-align: center;
-	padding-top: 15%;
 }
 
 #main h2 {
@@ -70,6 +67,7 @@ a:hover {
 .navQuartat {
 	background-color: white;
 	height: 30px;
+	border-color: white;
 }
 
 .navQuartat a {
@@ -298,11 +296,6 @@ a:hover {
 		font-size: 12px;
 		line-height: 8px;
 	}
-#splash {
-	position: absolute;
-	bottom: 15%;
-	left: 30px;
-}
 .storyBlock h1 {
 	font-size: 40px;
 }
