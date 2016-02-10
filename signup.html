@@ -75,15 +75,20 @@
     <div class="container services">
       <form action="http://formspree.io/migueog@gmail.com" method="POST">
         <input type="hidden" name="_next" value="//quartat.com/index.html" />
-        <div class="form-group">
+        <input type="text" name="_gotcha" style="display:none" />
+          <div class="form-group">
             <label>Name</label>
             <input type="text" class="form-control" name="name">
+          </div>
+          <div class="form-group">
+            <label>Phone</label>
+            <input type="text" class="form-control" name="phonenumber">
           </div>
           <div class="form-group">
             <label>Email address</label>
             <input type="email" class="form-control" name="_replyto">
           </div>
-        <button class="btn btnQuartat center-block"><input type="submit" value="Send"></button>
+        <button class="btn btnQuartat center-block" type="submit" value="Send"></button>
       </form>
     </div>
   </div>
