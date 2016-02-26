@@ -2,23 +2,18 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-  <title>Quartat - New Membership</title>
-  <meta name="description" content="Quartat V2.0">
+  <title>Quartat - Contact Us</title>
+  <meta name="description" content="Quartat">
   <meta name="author" content="Miguel Ocampo-Gooding">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900|Raleway:600,700,400,200' rel='stylesheet' type='text/css'>
-
+  <link href='http://fonts.googleapis.com/css?family=Lato:700,600,400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+  <script src="js/modernizr.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 
 <body>
@@ -38,7 +33,7 @@
         <ul class="nav navbar-nav">
           <li><a href="about.html">About us</a>
           </li>
-          <li><a href="services.html">Services</a>
+          <li><a href="index.html#services">Services</a>
           </li>
           <li>
             <li><a href="contact.html">Contact Us</a>
@@ -49,19 +44,19 @@
     </div>
   </nav>
 
-  <div class="storyBlock" id="storyBG1">
-    <div class="container">
+  <div class="storyBlock">
+    <div class="container wow fadeIn">
       <div class="row">
         <div class="col-xs-12 col-lg-12">
           <h1>Contact Us</h1>
-          <hr>
+          <div class="center-block" id="quartatDivider"></div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="minorBlock">
-    <div class="container services">
+    <div class="container wow fadeIn">
       <div class="row">
         <div class="col-xs-12 col-lg-6">
           <form action="http://formspree.io/info@quartat.com" method="POST">
@@ -83,7 +78,7 @@
           </form>
         </div>
         <div class="col-xs-12 col-lg-6">
-          <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.438857544095!2d-79.41405401169891!3d43.761255729145496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d6471edb6a3%3A0xdcda3ee13f3cacae!2s4789+Yonge+St%2C+North+York%2C+ON+M2N+0C8!5e0!3m2!1sen!2sca!4v1450731084719" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.438857544095!2d-79.41405401169891!3d43.761255729145496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d6471edb6a3%3A0xdcda3ee13f3cacae!2s4789+Yonge+St%2C+North+York%2C+ON+M2N+0C8!5e0!3m2!1sen!2sca!4v1450731084719" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -111,14 +106,13 @@
     </div>
   </div>
 
-
-  <!--
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 
-  <script type="text/javascript" src="js/headroom.min.js"></script>
-  <script type="text/javascript" src="js/jquery.headroom.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 

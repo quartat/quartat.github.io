@@ -2,39 +2,22 @@
 <html lang="en">
 
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Quartat - The Look</title>
-  <meta name="description" content="Quartat V2.0">
+  <meta name="description" content="Quartat">
   <meta name="author" content="Miguel Ocampo-Gooding">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900|Raleway:600,700,400,200' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:700,600,400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+  <script src="js/modernizr.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <nav class="navbar navbar-fixed-top navQuartat">
     <div class="container">
       <div class="navbar-header">
@@ -50,7 +33,7 @@
         <ul class="nav navbar-nav">
           <li><a href="about.html">About us</a>
           </li>
-          <li><a href="services.html">Services</a>
+          <li><a href="index.html#services">Services</a>
           </li>
           <li>
             <li><a href="#">Contact Us</a>
@@ -61,34 +44,41 @@
     </div>
   </nav>
 
-  <div class="storyBlock" id="storyBG1">
-    <div class="container">
+  <div class="storyBlock">
+    <div class="container wow fadeIn">
       <div class="row">
         <div class="col-xs-12 col-lg-12">
           <h1>The Look</h1>
-            <hr>
+          <div class="center-block quartatDivider"></div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="minorBlock">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 align="center">Services offered</h1>
-          <hr>
+    <div class="container wow fadeIn">
+      <div class="row"> 
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h1>We understand that no matter who you are, where you come from or what you do, your mannerisms have a direct impact on your social and professional success</h1>
+          <div class="center-block quartatDivider"></div>
         </div>
       </div>
+    </div>
+    <div class="container wow fadeIn">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-xs-12 col-lg-4">
           <h4>Cultural Etiquette</h4>
+          <div class="quartatDivider"></div>
           <p>What might be perfectly acceptable in one country, might be unthinkable in another country. Every culture have their own interpretation of ‘rules’ for behavior and dress code</p>
-          <br>    
+        </div>
+        <div class="col-xs-12 col-lg-4">    
           <h4>Social Etiquette</h4>
+          <div class="quartatDivider"></div>
           <p>Understanding and practice decorum when you are in a situation that call for appropriate measure of dialogue (when talking to elders, genders, and associates)</p>
-          <br>
+        </div>
+        <div class="col-xs-12 col-lg-4">
           <h4>Business Etiquette</h4>
+          <div class="quartatDivider"></div>
           <p>This is based on position and hierarchy. Different courtesies are given to individuals based on position within a place of business, it involves in treating colleagues and employer with respect and courtesy that creates a pleasant work environment for everyone. </p>
         </div>
       </div>
@@ -118,9 +108,12 @@
 	</div>
 
   <script src="js/jquery-1.11.2.min.js"></script>
-  <script type="text/javascript" src="js/headroom.min.js"></script>
-  <script type="text/javascript" src="js/jquery.headroom.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
 
 
 </body>
