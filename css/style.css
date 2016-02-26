@@ -19,7 +19,6 @@ a:hover {
 .arrow-white{
 	color:white;
 	top:0;
-	padding-top: 5%;
   -webkit-transition: padding-top 0.5s;
 	transition: padding-top 0.5s;
 }
@@ -35,7 +34,7 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	padding: 20% 0;
+	padding: 17% 0;
 }
 
 #main h1 {
@@ -65,7 +64,6 @@ a:hover {
 	font-size: 20px;
 	border-radius: 30px;
 	margin: 2%;
-	margin-top: 10%;
 	-webkit-transition: opacity 1s;
 	transition: opacity 1s;
 
@@ -227,7 +225,7 @@ a:hover {
 .outboundBlock{
 	height: 600px;
 	width: 100%;
-	background: url(../images/outboundBG.png);
+	background: url(../images/OutboundBG.png);
 	background-color: #eeeeee;
 	padding-top: 5%;
 	color: white;
@@ -258,7 +256,7 @@ a:hover {
 .inboundBlock{
 	height: 600px;
 	width: 100%;
-	background: url(../images/inboundBG.png);
+	background: url(../images/inboundbg.png);
 	background-color: #eeeeee;
 	padding-top: 5%;
 	color: white;
