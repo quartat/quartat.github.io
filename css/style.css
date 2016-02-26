@@ -276,6 +276,10 @@ a:hover {
 	padding: 5% 0;	
 }
 
+.inboundBlock .quartatDivider{
+		margin-left:87%;
+	}
+
 @media(max-width: 420px) {
 	.inboundBlock h1{
 		font-size:45px;
