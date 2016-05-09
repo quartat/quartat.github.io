@@ -131,11 +131,8 @@ a:hover {
 	}
 }
 
-#about {
-	background: url(../images/dividerbg.png);
-}
-
 .powerBlock {
+	background: url(../images/dividerbg.png);
 	height: auto;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
